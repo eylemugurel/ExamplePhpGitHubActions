@@ -4,3 +4,24 @@
 ![](https://codecov.io/github/eylemugurel/ExamplePhpGitHubActions/branch/main/graph/badge.svg?token=QD734AK8G8)
 
 An example PHP project demonstrating the usage of PHPUnit with GitHub Actions.
+
+### About badges
+
+The "test | passing" badge is provided out of the box by GitHub Actions.
+
+To obtain a coverage badge that represents the percentage of code covered by your tests, one great option is to integrate [Codecov](https://about.codecov.io/) into your repository. To get started with Codecov, follow these steps:
+
+1. Navigate to the [Codecov](https://about.codecov.io/sign-up/) sign-up page and click the **GitHub** button.
+2. Click **Continue to GitHub (Public Repos Only)**.
+3. Click the **Authorize Codecov** button.
+
+Note that you don't need a Codecov token for public repositories.
+
+After the initial upload of your `coverage.xml` to Codecov by your workflow, you can retrieve the coverage badge link from the Markdown section on the "Badges & Graphs" page of your account:
+```
+https://app.codecov.io/github/<org-name>/<repo-name>/settings/badge
+```
+
+### References
+- https://github.com/marketplace/actions/setup-php-action
+- https://github.com/marketplace/actions/codecov
