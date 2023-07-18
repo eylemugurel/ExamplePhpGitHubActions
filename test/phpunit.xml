@@ -5,4 +5,12 @@
 			<directory>suite</directory>
 		</testsuite>
 	</testsuites>
+	<coverage processUncoveredFiles="true">
+		<include>
+			<directory suffix=".php">../source</directory>
+		</include>
+		<report>
+			<clover outputFile="coverage.xml" />
+		</report>
+	</coverage>
 </phpunit>

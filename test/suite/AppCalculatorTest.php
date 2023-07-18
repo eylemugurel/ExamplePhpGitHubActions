@@ -2,6 +2,9 @@
 use \PHPUnit\Framework\TestCase;
 use \App\Calculator;
 
+/**
+ * @covers \App\Calculator
+ */
 class AppCalculatorTest extends TestCase
 {
 	protected $sut;

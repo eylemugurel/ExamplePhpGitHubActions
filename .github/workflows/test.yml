@@ -11,5 +11,10 @@ jobs:
       with:
         php-version: '7.4'
         tools: phpunit
+        coverage: xdebug
     - name: Run
       run: phpunit --configuration test/phpunit.xml
+    - name: Codecov
+      uses: codecov/codecov-action@v3
+      with:
+        files: test/coverage.xml
