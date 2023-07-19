@@ -9,7 +9,10 @@ class AppCalculatorTest extends TestCase
 {
 	protected $sut;
 
-	protected function setUp(): void
+	/**
+	 * @before
+	 */
+	protected function _setUp()
 	{
 		$this->sut = new Calculator();
 	}
