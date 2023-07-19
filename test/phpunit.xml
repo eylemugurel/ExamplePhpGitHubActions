@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit bootstrap="autoload.php">
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.2/phpunit.xsd"
+         bootstrap="autoload.php"
+         >
 	<testsuites>
 		<testsuite name="suite">
 			<directory>suite</directory>
 		</testsuite>
 	</testsuites>
-	<coverage processUncoveredFiles="true">
+	<source>
 		<include>
 			<directory suffix=".php">../source</directory>
 		</include>
+	</source>
+	<coverage>
 		<report>
-			<clover outputFile="coverage.xml" />
+			<clover outputFile="coverage.xml"/>
 		</report>
 	</coverage>
 </phpunit>
