@@ -18,8 +18,10 @@ class AppAccountantTest extends \PHPUnit\Framework\TestCase
 		$calculatorMock = $this->createMock(Calculator::class);
 		$calculatorMock->expects($this->exactly(2))
 			->method('Add')
-			->withConsecutive([8, 4], [30, 12])
-			->willReturnOnConsecutiveCalls(12, 42);
+			->willReturnMap([
+				[8, 4, 12],
+				[30, 12, 42],
+			]);
 		$calculatorMock->expects($this->once())
 			->method('Multiply')
 			->with(12, 5)
