@@ -15,7 +15,8 @@ class AppAccountantTest extends \PHPUnit\Framework\TestCase
 
 	public function testMeaningOfLifeWithMockedCalculator()
 	{
-		$calculatorMock = $this->createMock(Calculator::class);
+		$calculatorMock = $this->getMockBuilder(Calculator::class)
+			->getMock();
 		$calculatorMock->expects($this->exactly(2))
 			->method('Add')
 			->willReturnMap([
