@@ -1,18 +1,13 @@
 <?php
-use \PHPUnit\Framework\TestCase;
 use \App\Calculator;
 
-/**
- * @covers \App\Calculator
- */
-class AppCalculatorTest extends TestCase
+/** @covers \App\Calculator */
+class AppCalculatorTest extends \PHPUnit\Framework\TestCase
 {
 	protected $sut;
 
-	/**
-	 * @before
-	 */
-	protected function _setUp()
+	/** @before */
+	protected function before()
 	{
 		$this->sut = new Calculator();
 	}
