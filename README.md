@@ -9,7 +9,7 @@ An example PHP project demonstrating the usage of PHPUnit with GitHub Actions.
 
 The "test" badge is provided out of the box by GitHub Actions.
 
-To obtain a coverage badge that represents the percentage of code covered by your tests, one great option is to integrate [Codecov](https://about.codecov.io/) into your repository. To get started with Codecov, follow these steps:
+To obtain a coverage badge, one great option is to integrate [Codecov](https://about.codecov.io/) into your repository. To get started with Codecov, follow these steps:
 
 1. Navigate to the [Codecov](https://about.codecov.io/sign-up/) sign-up page and click the **GitHub** button.
 2. Click the **Continue to GitHub (Public Repos Only)** link.
