@@ -6,8 +6,7 @@ class AppCalculatorTest extends \PHPUnit\Framework\TestCase
 {
 	protected $sut;
 
-	/** @before */
-	protected function before()
+	protected function setUp(): void
 	{
 		$this->sut = new Calculator();
 	}
