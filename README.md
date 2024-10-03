@@ -9,8 +9,6 @@ An example PHP project demonstrating the usage of PHPUnit with GitHub Actions.
 
 | PHP    | PHPUnit | Xdebug | Composer |
 | :----- | :------ | :----- | :------- |
-| 5.6.40 | 5.7.27  | 2.5.5  | 2.2.24   |
-| 7.0.33 | 6.5.14  | 2.8.1  | 2.2.24   |
 | 7.1.33 | 7.5.20  | 2.9.8  | 2.2.24   |
 | 7.2.34 | 8.5.40  | 3.1.6  | 2.7.9    |
 | 7.3.33 | 9.6.21  | 3.1.6  | 2.7.9    |
@@ -18,6 +16,7 @@ An example PHP project demonstrating the usage of PHPUnit with GitHub Actions.
 | 8.0.30 | 9.6.21  | 3.3.2  | 2.7.9    |
 | 8.1.30 | 10.5.35 | 3.3.2  | 2.7.9    |
 | 8.2.24 | 11.3.6  | 3.3.2  | 2.7.9    |
+| 8.3.12 | 11.3.6  | 3.3.2  | 2.8.0    |
 
 ### About badges
 
