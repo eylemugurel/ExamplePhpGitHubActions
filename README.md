@@ -7,7 +7,7 @@ An example PHP project demonstrating the usage of PHPUnit with GitHub Actions.
 
 ### Versions
 
-| PHP    | PHPUnit | Xdebug | Composer
+| PHP    | PHPUnit | Xdebug | Composer |
 | :----- | :------ | :----- | :------- |
 | 5.5.38 | 4.8.36  | 2.5.5  | 2.2.24   |
 | 5.6.40 | 5.7.27  | 2.5.5  | 2.2.24   |
